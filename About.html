@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/style.css">
+<title>About</title>
+<style>
+.para{
+  font-size: 50px;
+  font-family: cambria;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  
+}
+  .about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 25px;
+    grid-gap:20px;
+                                                                                                                                                                              ;
+}
+.about .about-one img{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+  
+}
+.about .about-two p{
+    font-size: 35px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 50px;
+  
+}
+/*media query code*/
+@media only screen and (max-width:600px){
+
+
+  .about{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 0px 25px;
+    grid-gap:20px;                                                                                                                                                                          ;
+}
+.about .about-one img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.about .about-two p{
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 40px;
+}
+}
+  </style>
+
+</head>
+<body style="background-image:url(images/1.jpg); background-repeat:no-repeat; background-attachment:fixed; background-size:100% 100%;">
+<nav class="navbar">
+    <div class="nav-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="Register.html">Create Account</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </div>
+  </nav>
+  <div class="para">
+<p>About us</p>  
+</div>
+ <div class="about">
+  <div class="about-one">
+      <img src="images/blog_1.jpg">
+  </div>  
+  <div class="about-two">
+      <p>Book Zone provides easy interface to its customer for purchasing books online.
+        For any query leave a comment in the Home page comment section. You can also send us email and call us 
+            on Week days. 
+          Thankyou for your patience and hope you had a great shopping here.</p>
+
+  </div> 
+</div>
+<right> <a href="products.html" class="btn">Back <i class="fa fa-arrow-right" aria-hidden="true"></i> </a></right>
+<div class="footer">
+  <p> &copy;Sadhana Prajapati, All rights reserved.</p>
+</div>
+
+</body>
+</html>
